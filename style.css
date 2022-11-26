@@ -1,0 +1,89 @@
+body{
+    background: #EEEEEE;
+    font-family: 'Russo One', sans-serif;
+}
+.wrapper{
+    max-width: 30%;
+    margin: auto;
+    /* height: 500px; */
+    min-height: 600px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: #ffff;
+}
+header{
+    background:url(img/sun.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30%;
+    border-bottom: 1px solid black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.day{
+    text-align: right;
+    padding-top: 20%;
+    font-size: 20px;
+    color: #ffff;
+}
+.time{
+    text-align: right;
+    font-size: 40px;
+    color: #ffff;
+}
+.inputBlock{
+    margin-top: 5%;
+}
+#typeInp{
+    height: 30px;
+    margin-left: 25%;
+    background-color: #EBEFF2;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+button{
+    height: 35px;
+    width: 10%;
+    background-color: #ee2e20;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+    /* font-size: 20px; */
+    /* margin-top: 10px; */
+    box-shadow: 0px 4px 4px rgb(218, 17, 17);
+}
+button:hover{
+    background-color: #f5f257;
+    color: #ee2e20;
+    transition: 1s;
+}
+/* Карточки заданий */
+.block{
+    display: flex;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-top: 5%;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+p{
+    margin-left: 3%;
+}
+.rightSide{
+    display: flex;
+    margin-right: 3%;
+}
+.delbtn{
+    margin-top: 30%;
+}
+#radio{
+    color: #20EEB0;
+}
+
+.done{
+    background-color: green;
+    text-decoration: line-through;
+    color: #ffff;
+}
